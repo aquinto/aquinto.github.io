@@ -14302,6 +14302,7 @@ a.anchor-link {
 <li><ol>
 <li>Conclusion<ul>
 <li>5.1: Helpful Resources</li>
+<li>5.2 COVID-19 Cases Tutorial Recap</li>
 </ul>
 </li>
 </ol>
@@ -14914,6 +14915,12 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Note: It is important to note that while the most of the column fields contain NaN values, that each row represents one COVID-19 case.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="2.3:-Data-cleanup">2.3: Data cleanup<a class="anchor-link" href="#2.3:-Data-cleanup">&#182;</a></h4><p>Since the New York Times datasets contain cumulative amount of cases and deaths, it can become difficult to create visuals for our data if we wanted to see how many new cases or new deaths were added for each row. Below, we will add two new columns into our dataframes that will contain information regarding new cases and new deaths.</p>
 <p>Similarly, with your demographics_us_data DataFrame we only want to keep track of race, sex, age group and ethnicity columns so any other columns we will drop from our DataFrame</p>
 
@@ -15049,6 +15056,12 @@ a.anchor-link {
 
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Note: It is important to note that while the most of the column fields contain NaN values, that each row represents one COVID-19 case.</p>
+
+</div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -15830,22 +15843,10 @@ strong multicollinearity or other numerical problems.
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="5.-Conclusion">5. Conclusion<a class="anchor-link" href="#5.-Conclusion">&#182;</a></h3><h4 id="5.1:-Helpful-Resources">5.1: Helpful Resources<a class="anchor-link" href="#5.1:-Helpful-Resources">&#182;</a></h4><p>There have been various helpful resources that have provided us with some very good insight into our topic. To begin, for more information regarding the topic of linear regression and a very insightful tutorial can be found at this <a href="https://www.datacourses.com/linear-regression-in-python-using-statsmodels-911/">website</a>. <br></p>
 <p>Also, it is very important to point out that the CDC contains various datasets regarding COVID-19 in the United States. These dataset can be found at this <a href="https://data.cdc.gov/browse?q=COVID-19&amp;sortBy=relevance">link</a>. It is important to point out that our dataset is not the only one that could be used to create the same insights and graphs when it comes to demographics as the CDC also keep tracks of various other fields.</p>
+<h4 id="5.2-COVID-19-Cases-Tutorial-Recap">5.2 COVID-19 Cases Tutorial Recap<a class="anchor-link" href="#5.2-COVID-19-Cases-Tutorial-Recap">&#182;</a></h4><p>The goal of our tutorial was to analyze the Covid-19 cases in the United States and break down the distributions based on the age, sex, race, ethnicity, states, and Maryland's counties. These distribution were shown through scatter plots, pie charts, and bar charts. From those we saw that there is usually a correlation between Covid-19 cases and population, i.e. higher Covid cases with women vs. men, and 51.8% of Covid cases being from the white population. Although we were able to come to this conclusion, some distributions are missing a large percentage of data, either listed as unknown or missing. A correlation matrix was created to show that there is a relationship between race and ethnicity, and a very small correlation between race and sex.We also applied Machine Learning by using the linear regression model to plot the relationship to between the number of new deaths and the number of new cases. The coefficient value was positive, indicating that both variables are directly proportional and we are able to see that on the plot: as the number of new cases increased, the data points strayed further from the regression line. <br></p>
+<p>After all of the analyses we conducted in our tutorial, we are presented with a knowledge of how Covid-19 cases are distributed in the United States but this data is from the early stages of the pandemic that we live in. In the future with more data collected, we would be able to draw more conclusions from the distributions of the cases and incorportate more demographics like socioeconomic factors and how they affect case distributions.</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 
